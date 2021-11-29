@@ -4,22 +4,22 @@
 _repolink () {
     local regex
     regex='(https?)://github.com/.+/.+'
-    if [[ $D3VIL_REPO == "KILLER-X-USERBOT" ]]
+    if [[ $D3VIL_REPO == "D3vilBot" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1gtREVBRFNIT1QvS0lMTEVSLVgtVVNFUkJPVA==" | base64 -d
-    elif [[ $D3VIL_REPO == "KILLER-X-USERBOT" ]]
+        echo "aHR0cHM6Ly9naXRodWIuY29tL0QzS1JJU0gvRDN2aWxVc2VyYm90L2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
+    elif [[ $D3VIL_REPO == "D3vilbot" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1gtREVBRFNIT1QvS0lMTEVSLVgtVVNFUkJPVA==" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL0QzS1JJU0gvRDN2aWxVc2VyYm90L2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
     elif [[ $D3VIL_REPO =~ $regex ]]
     then
         if [[ $D3VIL_REPO_BRANCH ]]
         then
-            echo "${D3VIL_REPO}/archive/${KILLER-X-USERBOT}.zip"
+            echo "${D3VIL_REPO}/archive/${D3VIL_REPO_BRANCH}.zip"
         else
             echo "${D3VIL_REPO}/archive/master.zip"
         fi
     else
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1gtREVBRFNIT1QvS0lMTEVSLVgtVVNFUkJPVA==" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL0QzS1JJU0gvRDN2aWxVc2VyYm90L2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
     fi
 }
 
