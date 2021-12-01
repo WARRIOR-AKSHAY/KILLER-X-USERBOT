@@ -20,8 +20,8 @@
       "value": "ANYTHING"
     },
     "YOUR_NAME": {
-      "description": "Fill Your Telegram Name. Default Value is 𝔡3𝔳𝔦𝔩",
-      "value": "『KILLER』",
+      "description": "Fill Your Telegram Name. Default Value is KILLER-X",
+      "value": "【Killer-x Network】",
       "required": false
     },
     "ALIVE_MSG": {
