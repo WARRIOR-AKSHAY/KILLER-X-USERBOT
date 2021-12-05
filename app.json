@@ -35,7 +35,7 @@
       "required": false
     },
     "ABUSE": {
-      "description": "Leave it blank if you dont want Profanity in D3vilBot. Else Fill ON.",
+      "description": "Leave it blank if you dont want Profanity in KILLER-XBot. Else Fill ON.",
       "value": "ON",
       "required": false
     },
@@ -45,7 +45,7 @@
       "required": false
     },
     "PM_LOG_ID": {
-      "description": "Fill your private Channel ID if you want to Log PM messages. Get channel id from @ShowJsonBot",
+      "description": "Fill your private Channel ID if you want to Log PM messages. Get channel id from @roseBot",
       "value": "",
       "required": false
     },
@@ -77,7 +77,7 @@
       "description": "Create a private channel. And get it's id from @ShowJsonBot and paste here. Value should start with -100",
       "value": ""
     },
-    "D3VILBOT_SESSION": {
+    "KILLER-X_SESSION": {
       "description": "Get this value by using repl or termux. Refer to Repo for more info.",
       "value": ""
     },
